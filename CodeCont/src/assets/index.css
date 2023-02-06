@@ -1,0 +1,40 @@
+body {
+  background-color: #252525 !important;
+}
+body *:not(button) {
+  color: white;
+}
+
+header {
+  background-color: #191919;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+header section {
+  display: flex;
+  align-items: center;
+}
+header section h3 {
+  padding: 1vw;
+}
+header h1 {
+  padding-left: 1vw;
+}
+
+main article {
+  margin: 4vh 0;
+}
+main article input[type=datetime-local] {
+  max-width: 200px;
+}
+main ol {
+  background-color: #191919;
+  padding: 2vh;
+  border-radius: 10px;
+  list-style: none;
+}
+main ol .elUsuario {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

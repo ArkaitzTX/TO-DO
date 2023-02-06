@@ -1,0 +1,51 @@
+$d1: #191919;
+$f: #252525;
+
+body{
+    background-color: $f !important;
+    *:not(button){
+        color: white;
+    }
+}
+
+header{
+    background-color: $d1;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+
+    section{
+        display: flex;
+        align-items: center;
+
+        h3{
+            padding: 1vw;
+        }
+    }
+    h1{
+        padding-left: 1vw;
+    }
+
+}
+
+main{
+    article{
+        margin: 4vh 0;
+        input[type="datetime-local"]{
+            max-width: 200px;
+        }
+    }
+    ol{
+        background-color: $d1;
+        padding: 2vh;
+        border-radius: 10px;
+        
+        list-style: none;
+        .elUsuario{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
